@@ -1,0 +1,41 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.movie_list{
+    padding: 0 3rem 3rem 3rem;
+    
+}
+
+
+.list_title{
+    font-size: 1.75rem;
+    margin: 2.5rem;
+}
+
+
+
+.list_cards{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    /* gap: 20px; */
+    margin: auto;
+}
+
+
+
+ .list_cards img{
+     width: 100%;
+     margin: auto;
+    transition: opacity(.5s);
+ }

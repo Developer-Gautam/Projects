@@ -1,0 +1,86 @@
+*{
+    font-family: sans-serif;
+} 
+ 
+ #emptyBox{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    justify-content: space-between;
+    padding: 100px;
+    align-items: center;
+
+    border-radius: 100%;
+
+ }
+ #emptyBox>div{
+    justify-content: center;
+    align-items: center;
+ }
+ #emptyBox>div>img{
+    width: 80%;
+    height: auto;
+    border-radius: 100%;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #box{
+    display: grid;
+    width: 400px;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+ }
+ #box>img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+ }
+
+ #animationDiv{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    background-color: rgba(68, 122, 143, 0.644);
+    border-radius: 50px;
+ }
+
+ #contentForSlideShow{
+    margin-top: 70px;
+ }
+ #contentForSlideShow h2{
+    color: rgba(255, 255, 255, 0.842);
+    font-size: 35px;
+    font-weight: 1000;
+ }
+ #contentForSlideShow h3{
+    color: rgba(240, 240, 240, 0.801);
+ }
+ #contentForSlideShow button{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding: 10px 20px;
+    background-color: rgba(0, 58, 82, 0.842);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+ }
+ #contentForSlideShow button:hover{
+    background-color: rgba(39, 53, 59, 0.349);
+
+ }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    *{
+        font-family: sans-serif;
+        font-weight: 400;
+    }
+    #mainDiv{
+        width: 400px;
+        height: 560px;
+        background-color: rgba(155, 129, 155, 0.473);
+        border: 5px solid rgba(128, 128, 128, 0.562);
+        margin: auto;
+    }
+    #mainDiv #top{
+        background-color: purple;
+        padding-top: 5px;
+        color: white;
+        padding-bottom: 5px;
+        display: flex;
+
+    }
+    #top h2{
+        padding-left: 20px;
+    }
+    #top p{
+        margin-top: 25px;
+        margin-right: 20px;
+        margin-left: 25px;
+        font-size: 20px;
+    }
+    #top>div{
+    background-color: rgb(164, 104, 179);
+    margin-left: 20px;
+    border-radius: 50px;
+    }
+    
+    #bottom{
+        background-color: rgb(255, 255, 255);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-top: 400px;
+        display: flex;
+
+    }
+    #bottom img{
+        width: 100px;
+        cursor: pointer;
+        margin: auto;
+        transition: 0.3s;
+    }
+    #bottom img:hover{
+        width: 80px;
+        cursor: pointer;
+    }
+    #amount{
+        border: none;
+        height: 70px;
+        width: 270px;
+        padding-left: 20px;
+        font-size: 20px;
+        color: rgb(73, 72, 72);
+    }
+</style>
+
+<body>
+    
+    <div id="mainDiv">
+        <div id="top">
+            <div>
+                <p>UN</p>
+            </div>
+            <h2>Unkown number</h2>
+        </div>
+
+        <div id="bottom">
+            <input type="number" id="amount" placeholder="Enter amount">
+            <img src="https://cutewallpaper.org/24/send-icon-png/send-button-transparent-png-clipart-transparent-send-button-pngsend-icon-png-free-transparent-png-images-pngaaacom.png" alt="" onclick="sendMoney()">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script src="script.js"></script>

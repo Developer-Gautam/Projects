@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components/navbar.css">
+    <link rel="stylesheet" href="style/signup.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="navbarDiv"></div>
+
+   <h1>Create an <span>account</span></h1>
+
+    <div id="signupDiv">
+
+        <label for="">Enter name</label>
+        <input type="text" id="name">
+        <label for="">Enter email</label>
+        <input type="email" id="email">
+        <label for="">Set password</label>
+        <input type="password" id="password">
+        <label for="">Set username</label>
+        <input type="text" id="username">
+        <label for="">Enter mobile number</label>
+        <input type="number" id="mobile">
+        <label for="">Description</label>
+        <input type="text" id="description">
+
+        <button onclick="signup()">Create account</button>
+
+    </div>
+
+
+
+</body>
+</html>
+
+<script type="module">
+
+    import {navbar} from './components/navbar.js'
+    document.querySelector("#navbarDiv").innerHTML = navbar()
+
+</script>
+
+<script src="script/signup.js"></script>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/admin.css">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <div id="form">
+        <h1>Add food</h1>
+
+        <select name="" id="vegNonveg">
+            <option value="">Veg/Non-veg</option>
+            <option value="Veg">Veg</option>
+            <option value="Non-Veg">Non-veg</option>
+        </select>
+        <input type="text" id="title" placeholder="Enter food title">
+        <input type="url" id="image" placeholder="food image url">
+        <input type="text" id="description" placeholder="About food (description)"> 
+        <input type="number" id="price" placeholder="Enter food price">
+        <input type="text" id="rating" placeholder="Enter rating">
+
+        <button onclick="addFood()">Add food</button>
+    </div>
+
+    <div id="emptyBox"></div>
+
+</body>
+</html>
+
+<script src="script/admin.js"></script>

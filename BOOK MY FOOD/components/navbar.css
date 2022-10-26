@@ -1,0 +1,17 @@
+*{
+    font-family: sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-around;
+
+    background-color: rgb(2, 107, 25);
+}
+#navbar h4{
+    color: white
+}
+#navbar h4>a{
+    color: white;
+}
+
+

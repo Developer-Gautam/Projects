@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="components/navbar.css">
+    <link rel="stylesheet" href="style/checkout.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div id="navbarDiv"></div>
+
+   <h2>Total paying amount (GST include) : $ <span id="total"></span></h2>
+
+
+   <div id="checkoutDiv">
+        <label for="">Enter your full name</label>
+        <input type="text" id="name">
+        <label for="">Enter your card number</label>
+        <input type="text" id="cardNumber">
+        <label for="">Enter your CVV</label>
+        <input type="text" id="cvv">
+        <button id="button">Procure to pay</button>
+   </div>
+
+
+
+
+</body>
+</html>
+
+<script type="module">
+
+    import {navbar} from './components/navbar.js'
+    document.querySelector("#navbarDiv").innerHTML = navbar()
+
+</script>
+
+
+<script src="script/checkout.js"></script>

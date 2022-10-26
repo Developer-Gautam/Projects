@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/login.css">
+    <title>Document</title>
+    <style>
+        #checkbox{
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="form">
+        <h1>Log-in</h1>
+
+        <input type="text" id="username" placeholder="Enter your username">
+        <input type="password" id="password" placeholder="Enter your Password">
+        <div id="checkbox">
+            <input type="checkbox">
+            <p>Login as admin</p>
+        </div>
+
+        <button onclick="logIn()" id="login">Login</button>
+    </div>
+
+</body>
+</html>
+
+<script src="script/login.js"></script>
