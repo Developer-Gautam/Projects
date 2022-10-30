@@ -1,0 +1,54 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+#searchResultHouses{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+#searchResultHouses img{
+    width: 100%;
+}
+#searchResultHouses>div{
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#searchResultHouses>div:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#searchResultHouses>div>div{
+    padding: 30px;
+}
+h5,h4,p{
+    margin-bottom:10px;
+    font-size: 13px;
+}
+p{
+    color: rgb(2, 96, 236);
+}
+h5{
+    color: rgba(87, 2, 2, 0.685);
+}
+h4{
+    font-size: 17px;
+    margin-top: 0px;
+}
+h3{
+    color: rgb(0, 89, 255);
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+h1{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-left: 65px;
+    margin-bottom: 40px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.801);
+}

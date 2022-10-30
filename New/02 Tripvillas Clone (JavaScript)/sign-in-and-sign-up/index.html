@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../navbar/lightNavBar/navbar.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="navbarDiv"></div>
+
+    
+    <h1 id="mainHeading">Login / Register on Tripvillas</h1>
+
+
+    <div id="mainDiv">
+        <div id="signIn">
+
+            <h1>Welcome to Tripvillas</h1>
+            <p>Create a login to send enquiries and store all your bookings in a central place</p>
+            <h1>Sign in</h1>
+
+            <input type="email" placeholder="e.g. johndoe@gmail.com" id="email">
+
+            <input type="password" placeholder="my secret password" id="password">
+
+            <button id="signInBtn">Sign in</button>
+
+            <p id="forgotPassword">Forgot password?</p>
+
+        </div>
+
+
+
+
+        <div id="signUp">
+
+            <h1>New To Tripvillas?</h1>
+            <div id="name">
+                <input type="text" placeholder="First Name" id="firstName">
+
+                <input type="text" placeholder="Last Name" id="lastName">
+            </div>
+            <div id="mobileNumber">
+
+                <input type="text" placeholder="Country code">
+
+                <input type="number" placeholder="1234567890">
+            </div>
+            <input type="email" placeholder="Email Address" id="email1">
+            <div id="passwordDiv">
+
+                <input type="password" placeholder="Password" id="password1">
+
+                <input type="password" placeholder="Confirm Password" id="confirmPassword">
+            </div>
+            <div id="checkBox">
+                <input type="checkbox">
+                <p>I agree with terms and conditions</p>
+            </div>
+            <button id="signUpBtn">Sign up for Tripvillas</button>
+        </div>
+    </div>
+
+
+
+
+
+</body>
+</html>
+
+<script src="index.js"></script>
+
+<script type="module">
+
+    import navbar from "../navbar/lightNavBar/navbar.js"
+
+    document.querySelector("#navbarDiv").innerHTML = navbar()
+    // console.log(navbar)
+
+    let h_day_homes = document.getElementById('h_day_homes')
+h_day_homes.addEventListener('click', ()=>{
+    // console.log("fadfk");
+    window.location.href = "../market_place.html"
+})
+ 
+let logo_img = document.getElementById('logo_img')
+
+logo_img.addEventListener('click', ()=>{
+    // console.log("fadfk");
+    window.location.href = "../index.html"
+})
+    
+    
+</script>
+
+
+<script>
+    let goToHomePage = ()=>{
+        window.location.href = "../home/home.html"
+    }
+</script>
+
+
+<script>
+
+
+  let moveToLoginPage = ()=>{
+        window.location.href = "index.html"
+    }
+</script>

@@ -1,0 +1,38 @@
+
+#main>#firsts{
+    font-size:30px;
+    font-family: 'Roboto',arial,helvetica,sans-serif;
+    font-weight: 300;
+    color: #242424;
+    line-height: 1.3em;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#main>p{
+    width: 80%;
+    margin: auto;
+    color: #737373;
+    font-family: 'Open Sans',Tahoma,Arial,helvetica,sans-serif;
+    font-size: 14px;
+    line-height: 1.6em;
+    font-weight: 400;
+}
+#main>#q{
+    width: 80%;
+    margin: auto;
+    font-family: 'Roboto',arial,helvetica,sans-serif;
+    margin-top: 0;
+    font-weight: 300;
+    color: #565656;
+    line-height: 1.3em;
+    font-size:18.2px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#main>#r{
+    width: 80%;
+    margin: auto;
+    /* margin-left:25px; */
+    
+}

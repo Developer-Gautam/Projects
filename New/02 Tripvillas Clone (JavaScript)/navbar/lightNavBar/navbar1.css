@@ -1,0 +1,110 @@
+
+#navbar{
+   
+    display: flex;
+    justify-content:flex-end;
+align-items: center;
+gap:20px;  
+/* background-color: bisque; */
+border-bottom: 0.1px solid rgba(163, 161, 161, 0.4);
+padding: 0px 20px;
+}
+#navbar>.logo{
+/* margin: auto; */
+margin-right: auto;
+}
+/* #navbar>.logo{} */
+ .login_status{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.login_status>div{
+border-radius: 50%;
+border: 2px solid rgb(164, 173, 172);
+
+}
+.login_status>div:hover{
+border: 2px solid #30bbb1; 
+}
+.login_status>div>img{
+border-radius: 50%;
+vertical-align: middle;
+
+}
+#navbar>div:last-child>button{
+border: none;
+background-color: rgb(217,83,79);
+padding: 9px 10px;
+color: white;
+border-radius: 4px;
+}    
+#navbar>div:last-child>button:hover{
+border-radius:10px ;
+background-color: rgb(189, 93, 89);
+cursor: pointer;
+}
+#navbar p:hover{
+color: #30bbb1;
+cursor: pointer;
+}
+#user_img{
+    position: relative;
+  }
+  #user_img>img{
+    width: 50px;
+    height: 50px;
+  }
+  #holiday_hover{
+    position: relative;
+ }
+  #user_hover_menu{
+    position: absolute;
+    top:60px;
+    border: none;
+    margin: auto;
+    z-index: 100;
+ }
+ #holiday_hover{
+    position: absolute;
+    top:60px;
+    border: none;
+    margin: auto;
+    z-index: 100;
+ }
+    
+ #user_hover_menu>i, #holiday_hover>i{
+ 
+    position: absolute;
+    top:-21px;
+    left: 10px;
+    color: rgb(51,51,51);;
+ }
+    
+    
+  #user_hover_menu>ul, #holiday_hover>ul{
+    margin-left: 0px;
+    padding-left: 0px;
+     list-style-type: none;
+     /* padding: 10px; */
+     background-color: rgb(51,51,51);
+     color: white;
+     margin-top: 0px;
+    }
+    #holiday_hover>ul{
+       width: 180px;
+    }
+ #user_hover_menu>ul>li, #holiday_hover>ul>li{
+    
+    padding: 6px 12px;
+    border-bottom: 1px solid black;
+    
+ }
+ #user_hover_menu>ul>li>i, #holiday_hover>ul>li>i{
+    padding-right: 3px;
+ }
+ #user_hover_menu>ul>li:hover, #holiday_hover>ul>li:hover{
+    transition: all 0.5s;
+    background-color: #30bbb1;
+    cursor: pointer;
+ }

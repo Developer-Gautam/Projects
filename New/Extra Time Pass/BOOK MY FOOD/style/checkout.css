@@ -1,0 +1,42 @@
+h1{
+    margin-bottom: 50px;
+}
+
+#checkoutDiv{
+    display: grid;
+    width: 400px;
+    margin-top: 50px;
+    margin: auto;
+    font-size: 18px;
+}
+
+#checkoutDiv input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+#checkoutDiv button{
+    width: 200px;
+    height: 45px;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#checkoutDiv button:hover{
+    background-color: rgb(1, 78, 1);
+}
+
+h2{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+}

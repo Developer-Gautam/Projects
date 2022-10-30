@@ -1,0 +1,152 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 500;
+}
+
+
+#navbarDiv{
+    width: 100%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.301);
+}
+
+#logoDiv>img{
+    width: 165px;
+    margin: auto;
+    margin-left: 20px;
+}
+
+#navbarSecondPartition{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 40px;
+    font-size: 13px;
+    color: gray;
+}
+#navbarSecondPartition button{
+    padding: 7px 13px;
+    border: none;
+    background-color: #d9534f;
+    font-size: 11px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#navbarSecondPartition button:hover{
+    border-radius: 10px;
+    background-color: #af3e3a;
+}
+
+#navbarSecondPartition>p{
+    cursor: pointer;
+    color: rgb(73, 73, 73);
+}
+#navbarSecondPartition>p:hover{
+    cursor: pointer;
+    color: rgb(1, 197, 197);
+}
+#sym{
+    font-size: 10px;
+    align-items: center;
+}
+
+
+
+h1{
+    margin-left: 120px;
+    color: rgb(90, 90, 90);
+    font-weight: 200;
+    margin-top: 70px;
+    font-size: 40px;
+}
+#aboutTripvillas{
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    padding: 20px;
+    font-size: 15px;
+    color: gray;
+    line-height: 20px;
+    border-radius: 5px;
+}
+
+#backgroundImageDiv{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: auto;
+
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    border-radius: 5px;
+    padding-bottom: 20px;
+}
+
+#backgroundImageDiv>div{
+    padding: 0px;
+    margin: 15px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+#backgroundImageDiv h2{
+    font-size: 20px;
+    margin-left: 10px;
+}
+#backgroundImageDiv h5{
+    width: 230px;
+    margin: auto;
+    font-size: 13px;
+    padding-bottom: 39px;
+    line-height: 20px;
+}
+
+
+
+
+
+#hoverBackgroundImageDiv{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 80%;
+    margin: auto;
+    gap: 25px;
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    padding: 20px;
+    border-radius: 6px;
+    /* justify-content: space-around; */
+}
+#hoverBackgroundImageDiv>div>div img{
+    /* z-index: 1; */
+    width: 100%;
+    height: 100%;
+}
+#hoverBackgroundImageDiv>div>div{
+    width: 100%;
+    height: 250px;
+}
+#hoverBackgroundImageDiv>div>div:hover{
+
+    background-color: black;
+}
+
+#onlyText{
+    width: 80%;
+    margin: auto;
+    border: 1px solid rgba(128, 128, 128, 0.432);
+    border-radius: 6px;
+    padding: 20px;
+    font-weight: 400;
+    color: rgb(112, 111, 111);
+    line-height: 25px;
+}
+#onlyText hr{
+    color:  gray;
+    border: 1px solid rgba(128, 128, 128, 0.301);
+}

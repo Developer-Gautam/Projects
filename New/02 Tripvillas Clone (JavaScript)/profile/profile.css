@@ -1,0 +1,624 @@
+body{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto',arial,helvetica,sans-serif;
+    position: relative;
+   }
+   /* #container{
+       height: 90%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+        
+   }
+   #container>#footer{
+       align-self: flex-end;
+   } */
+   #navbar{
+       display: flex;
+       justify-content:flex-end;
+   align-items: center;
+   gap:20px;  
+   /* background-color: bisque; */
+   border-bottom: 0.1px solid rgba(163, 161, 161, 0.4);
+   padding: 0px 20px;
+ }
+ #navbar>.logo{
+   /* margin: auto; */
+  margin-right: auto;
+ }
+ /* #navbar>.logo{} */
+ .login_status{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .login_status>div{
+   border-radius: 50%;
+   border: 2px solid rgb(164, 173, 172);
+   
+}
+.login_status>div:hover{
+   border: 2px solid #30bbb1; 
+}
+.login_status>div>img{
+ border-radius: 50%;
+ vertical-align: middle;
+ 
+}
+#navbar>div:last-child>button{
+   border: none;
+   background-color: rgb(217,83,79);
+   padding: 9px 10px;
+   color: white;
+   border-radius: 4px;
+}    
+#navbar>div:last-child>button:hover{
+   border-radius:10px ;
+   background-color: rgb(189, 93, 89);
+   cursor: pointer;
+}
+#navbar p:hover{
+ color: #30bbb1;
+ cursor: pointer;
+}
+/* footer section start here==================================================== */
+#footer{
+  
+   background-color: rgb(38,38,38);
+   color: white;
+   font-family: sans-serif;
+   margin-top: auto;
+   margin-bottom: 0px;
+   padding: 40px 0px;
+}
+#footer>div{
+   margin: auto;
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(4, 1fr);
+   grid-template-rows: auto;
+   gap:20px; 
+   justify-content: space-evenly;
+   align-items: center;
+}
+#footer>div>div{
+   margin: auto;
+}
+.first_div_footer{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* align-items: center; */
+   /* gap:20px; */
+}
+.first_div_footer>img{
+   width: 220px;
+}
+.first_div_footer>p{
+   font-size: 13px;
+   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+   font-weight: lighter;
+   letter-spacing: 0.23px;
+   line-height: 20px;
+}
+
+.first_div_footer>div>i{
+ 
+   background-color:#30bbb1;
+border-radius: 50%;
+border: 1px solid grey;
+padding: 7px 7px;
+height: 14px;
+width: 16px;
+text-align: center;
+font-size: 11px;
+transition: margin 2s;
+/* font-size: 50px; */
+}
+.first_div_footer>div>i:hover{
+  /* margin:10px; */
+  background-color: aquamarine;
+}
+/* #737373  333 565656*/
+.second_div_footer>p{
+ font-size: 30px;
+  font-family: 'Roboto',arial,helvetica,sans-serif;
+  font-weight: 300;
+}
+.second_div_footer>button{
+ padding: 10px 20px;
+ background-color: #30bbb1;
+ border: none;
+ color: white;
+ border-radius: 5px;
+ font-size: 16px;
+ letter-spacing: 0.25px;
+ margin-top: 20px;
+}
+.second_div_footer>button:hover{
+   background-color: #2c8b84;
+   cursor: pointer;
+}  
+.second_div_footer>div>input{
+   width: 100%;
+   background-color: black;
+   border:1px solid #30bbb1;
+   outline: none;
+   padding: 10px 5px;
+   color: white;
+}    
+.second_div_footer>div>p{
+   margin: 1px 0px;
+   font-size: 14px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.second_div_footer>div>.small_grey_text{
+    color: gray;
+    font-size: 11px;
+    margin-top: 4px;
+   }    
+
+    
+.fourth_div_footer>div>img{
+  width: 130px;
+  
+}
+.fourth_div_footer>div>img:last-child{
+  width: 115px;
+}
+
+.third_div_footer{
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+}
+.third_div_footer>a{
+ text-decoration: none;
+ color: white;
+ /* font-family:sans-serif; */
+ letter-spacing: 0.25px;
+ font-size: 12px;
+ padding: 6px 0px;
+ margin-top:0px ;
+}
+.fourth_div_footer>h3{
+   font-size: 30px;
+   font-family: 'Roboto',arial,helvetica,sans-serif;
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+}
+.fourth_div_footer>h3:nth-child(2){
+ margin: 0px;
+ margin-bottom: 20px;
+ 
+}
+.fourth_div_footer>h3:nth-child(2)>a{
+   text-decoration: none;
+   color: #30bbb1;
+}
+/* profile section and user info======================================================     */
+#profile_section{
+   width: 80%;
+   margin: auto;
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   grid-template-rows: auto;
+   gap:60px;
+   /* justify-content: space-between; */
+   /* align-items: center; */
+   
+}
+#profile_section>div:first-child{
+    background-color: rgb(77,77,77);
+    height: 80vh;
+    margin-top: 10%;
+}
+   
+#profile_section p{
+   
+   color:white;
+   font-family: 'Roboto',arial,helvetica,sans-serif;
+    font-weight: 300;
+}
+#profile_section>div>#user_info>#user_image_div>p{
+   margin: 2px;
+}
+#profile_section>div{
+   
+   /* height:90%; */
+   padding-top: 20px;
+   /* padding-bottom: 10px; */
+   margin: 20px 0px;
+   border-radius: 10px;
+   
+}
+
+#user_info>div:first-child{
+   text-align: center;
+   padding-top:20px;
+}
+#user_info>div>div:first-child>img{
+   width: 200px;
+  height: 200px;
+   border-radius: 50%;
+}
+#profile_img{
+   box-sizing: border-box;
+   margin: auto;
+   width: 200px;
+   max-height: 200px;
+}
+#user_info>div:first-child>p{
+   opacity: 0.8;
+}
+#user_info> #bookings, #profile_info, #profile_pic, #profile_changepwd{
+   display:flex;
+   align-items: center;
+   /* margin: auto; */
+   padding: 0px 20px;
+   border-bottom: 1.5px solid rgba(59, 55, 55, 0.5);
+   opacity: 0.8;
+   cursor: pointer;
+   gap:10px;
+   cursor: pointer;
+}
+.user_inform:hover{
+ background-color:rgba(59, 55, 55, 0.5) ; 
+}
+#user_info>.user_inform:hover p{
+   opacity: 1;
+   color: white;
+
+}
+
+ 
+.user_inform:hover i{
+ 
+ color:#30bbb1;
+ opacity: 1;
+}
+/* content booking section================================= */
+#booking_message{
+ display: none;   
+}
+#get_user_info{
+    margin: auto;
+   
+}
+#get_user_info>div{
+    margin: auto;
+}
+#all_radio_options{
+    color:rgb(114, 107, 107)
+}   
+#all_radio_options>div{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+   font-size: 18px;
+}
+/* #all_radio_options>div:nth-child(2){
+    display:flex;
+    background-color: #2c8b84;
+} */
+#get_user_info>div:nth-child(1){
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+#get_user_info>div:nth-child(1)>input{
+    padding: 10px 10px;
+    width: 45%;
+    border: 0.1px solid rgb(151, 142, 142);
+    outline: none;
+    opacity: 0.7;
+}
+/* #get_user_info>div:nth-child(1){
+
+} */
+#get_user_info>div:nth-child(2){
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px; 
+ 
+}
+#get_user_info>div:nth-child(2)>input, #country_code{
+    padding: 10px 10px;
+    width: 45%;
+    border: 0.1px solid rgb(151, 142, 142);
+    outline: none;
+    opacity: 0.7;       
+}
+#country_code{
+    width: 47.3%;
+}
+textarea{
+    width: 100%;
+    border: 0.1px solid rgb(151, 142, 142);
+    outline: none;
+    opacity: 0.7;    
+}
+#all_radio_options>div>div{
+ margin: 10px 0px;
+ vertical-align: middle;
+ text-align: left;
+}
+.first_radio_div>div{
+    margin: 10px 0px ;
+}
+
+.radio_choice_head{
+    margin-bottom: 0px;
+    opacity: 0.7; 
+    
+}
+#all_radio_options>div>div>input{
+    height: 20px;
+    width: 10%;
+}
+/* #all_radio_options>div>div>input{
+
+} */
+#languages{
+    border: 0.1px solid rgb(151, 142, 142);
+    outline: none;
+    opacity: 0.7; 
+    
+}
+#languages>option{
+  padding: 6px 10px;
+  
+}
+.lang{
+    color:rgb(114, 107, 107) 
+}
+#get_user_info>.save_button_div{
+    margin: 30px 0px;
+
+    /* background-color: blueviolet; */
+}
+#get_user_info>.save_button_div>button{
+    
+    padding: 14px 14px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #30bbb1;
+    color: white;
+    letter-spacing: 0.80px;
+    cursor: pointer;
+}   
+#get_user_info>.save_button_div>button:hover{
+    background-color: #279991; 
+    border-radius: 12px;  
+}
+/* profile update========================================== */
+#update_profile_pic{
+   margin-top: 50px;
+   display: none;
+}
+/* rgb(211,57,76) */
+
+#update_profile_pic>h1{
+   font-weight: 300;
+   font-size: 60px;
+   margin-top: 50px;
+   color: rgb(135,135,135);
+}
+.heading1{
+   font-weight: 300;
+   font-size: 60px;
+   margin-top: 50px;
+   color: rgb(135,135,135);
+   opacity: 0.7;
+}
+#change_pwd_div{
+display: none;
+}
+#change_pwd_div>div>p{
+   color: black;
+   margin-bottom: 5px;
+   font-family: 18px;
+   opacity: 0.7;
+}
+#change_pwd_div>div>input{
+   width: 40%;
+   padding: 10px 20px;
+   opacity: 0.7;
+   outline: none;
+   border: 0.1px solid rgb(173, 168, 168);
+}
+.profile_pic{
+   display: inline;
+   border: 0.1px solid rgb(211,57,76);
+   padding: 13px 0px;
+   background-color:rgb(223, 163, 170) ;
+   margin: auto;
+}
+.profile_pic>label{
+   background-color: rgb(211,57,76);
+   padding: 15px 10px;
+   color: white;
+   cursor: pointer;
+   font-size: 14px;
+   vertical-align: middle;
+   
+}
+.profile_pic>input{
+   outline: none;
+   padding: 10px;
+}
+#update_pwd{
+   padding: 10px 20px;
+   background-color: #30bbb1;
+   border: none;
+   color: white;
+   border-radius: 5px;
+   font-size: 16px;
+   letter-spacing: 0.25px;
+   margin-top: 20px;
+}
+#update_pwd:hover{
+   background-color: #2c8b84;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+svg{
+   padding: 10px;
+   text-align: center;
+   vertical-align: middle;
+ 
+}
+ #update_pic_btn{
+   display: block;
+   
+    padding: 10px 20px;
+    background-color: #30bbb1;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    letter-spacing: 0.25px;
+    margin-top: 20px;
+    cursor: pointer;
+ } 
+ #update_pic_btn:hover{
+   background-color: #29a199;
+   border-radius: 3px;
+ }
+ #user_img{
+   position: relative;
+ }
+ #user_img>img{
+   width: 40px;
+   height: 40px;
+ }
+ #holiday_hover{
+   position: relative;
+}
+ #user_hover_menu{
+   position: absolute;
+   top:60px;
+   border: none;
+   margin: auto;
+   z-index: 100;
+}
+#holiday_hover{
+   position: absolute;
+   top:60px;
+   border: none;
+   margin: auto;
+   z-index: 100;
+}
+   
+#user_hover_menu>i, #holiday_hover>i{
+
+   position: absolute;
+   top:-21px;
+   left: 10px;
+   color: rgb(51,51,51);;
+}
+   
+   
+ #user_hover_menu>ul, #holiday_hover>ul{
+   margin-left: 0px;
+   padding-left: 0px;
+    list-style-type: none;
+    /* padding: 10px; */
+    background-color: rgb(51,51,51);
+    color: white;
+    margin-top: 0px;
+   }
+   #holiday_hover>ul{
+      width: 180px;
+   }
+#user_hover_menu>ul>li, #holiday_hover>ul>li{
+   
+   padding: 6px 12px;
+   border-bottom: 1px solid black;
+   
+}
+#user_hover_menu>ul>li>i, #holiday_hover>ul>li>i{
+   padding-right: 3px;
+}
+#user_hover_menu>ul>li:hover, #holiday_hover>ul>li:hover{
+   transition: all 0.5s;
+   background-color: #30bbb1;
+   cursor: pointer;
+}
+/* holiday homes for sale css some css on upper part =================*/
+
+.holiday_head{
+   font-size: 15px;
+   margin-bottom: 0px;
+   padding-bottom: 2px;
+}
+
+.holiday_text{
+   font-size: 11px;
+   margin-top: 0px;
+   padding-top: 0px;
+   line-height: 17px;
+}
+
+/* actual bookings===================dashboard */
+/* #all_booked{
+
+} */
+#msg_booking{
+   color: black;
+}
+#booked_data{
+   display: flex;
+   align-items: center;
+}
+
+#cont{
+   display: none;
+   position: fixed;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: rgba(5, 5, 5, 0.6);
+   width: 100vw;
+   height: 100vh;
+}
+#cont>div{
+   margin: auto;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color: white;
+   width: 600px;
+   height: 600px;
+   position: absolute;
+   top:50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+/* css for booked data card */
+#booked_data{
+   margin: auto;
+   color: black;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+}
+/* #booked_data>div{
+ 
+} */
+#booked_data>div>img{
+  width: 100%;
+  height: 200px;
+}
+#booked_data>div>p{
+   color: black;
+}

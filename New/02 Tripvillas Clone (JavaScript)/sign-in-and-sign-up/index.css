@@ -1,0 +1,66 @@
+*{
+    color: rgba(0, 0, 0, 0.493);
+}
+
+#mainHeading{
+    width: 80%;
+    margin: auto;
+    font-size: 60px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+
+
+#mainDiv{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+}
+#mainDiv input{
+    padding: 10px 20px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+#mainDiv>div{
+    display: grid;
+    gap: 20px;
+}
+#mainDiv h1{
+    margin-top: -10px;
+    margin-bottom: -16px;
+}
+
+#signUp div{
+    display: flex;
+    gap: 20px;
+}
+
+#mainDiv button{
+    width: 200px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #2ba89f;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+#mainDiv button:hover{
+    border-radius: 10px;
+    background-color: #23817b;
+}
+
+#forgotPassword{
+    cursor: pointer;
+    color: #2ba89f;
+}
+
+#forgotPassword:hover{
+    cursor: pointer;
+    color: #1d6d68;
+    
+}
+#logo_img{
+    cursor: pointer;
+}

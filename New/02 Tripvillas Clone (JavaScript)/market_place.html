@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tripvillas</title>
+    <link rel="stylesheet" href="market_place.css">
+    <link rel="stylesheet" href="./navbar/lightNavBar/navbar.css">
+    <link rel="stylesheet" href="./navbar/footer/footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="https://d2v8elt324ukrb.cloudfront.net/static/favicon/favicon-32x32.0591329d75b0.png">
+</head>
+<body>
+    <div id="nav"></div>
+    <div id="text_filter_section">
+        <h1>Holiday Homes for Sale</h1>
+        <p>Tripvillas brings you a selection of pre-screened holiday homes with strong income generation potential across key tourism destinations. Check each listing for our own comments on the project and the potential for income and appreciation.</p>
+        <div>
+            <p>If you are interested in Selling your holiday home or are a builder developing holiday homes or a fractional ownership resort, please contact Vinayak Koli on vinayak@tripvillas.com to understand how Tripvillas can help in improving your real estate offering and helping you reach out to a larger audience of holiday home investors.</p>
+        </div>
+        <div id="fil_sec">
+            <select id="country">
+                <option value="all country">All Country</option>
+                <option value="Bangladesh">Bangladesh</option>
+                <option value="India">India</option>
+                <option value="France">France</option>
+                <option value="Israel">Israel</option>
+                <option value="United-kingdom">United Kingdom</option>
+                <option value="Sri-lanka">Sri Lanka</option>
+                <option value="Greece">Greece</option>
+                <option value="Indonesia">Indonesia</option>
+                <option value="Italy">Italy</option>
+                <option value="Portugal">Portugal</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Philippines">Philippines</option>
+            </select>
+            <select id="prop_type">
+                <option value="">All Property Type</option>
+                <option value="2">Apartment</option>
+                <option value="4">Farm</option>
+                <option value="6">Fractional Ownership</option>
+                <option value="7">Hotel Room</option>
+                <option value="3">House</option>
+                <option value="1">Land</option>
+                <option value="8">Studio</option>
+                <option value="5">Timeshare</option>
+                <option value="9">Villa</option>
+            </select>
+            <select id="sale_type">
+                <option value="">All Sale Type </option>
+                <option value="1">Primary (From Builder)</option>
+                <option value="2">Resale</option>
+            </select>
+            <select id="management">
+                <option value="">All Management Type</option>
+                <option value="1">Self Managed</option>
+                <option value="2">Professionally Managed</option>
+            </select>
+            <button id="submit">Submit</button>
+        </div>
+    </div>
+    <div id="prop_container"></div>
+
+    <div id="foot"></div>
+    
+</body>
+</html>
+<script src="market_place.js" type="module"></script>

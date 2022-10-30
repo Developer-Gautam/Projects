@@ -1,0 +1,340 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-weight: 300;
+}
+
+
+
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+#searchResults{
+    position: absolute;
+   background-color: #fff;
+   height: 180px;
+    /* left: 30px;
+    top: 40px; */
+    font-size: 12px;
+    overflow-x: hidden;
+    /* overflow-y: scroll; */
+}
+#searchDiv input{
+    outline: none;
+}
+.results{
+    display: flex;
+    color: black;
+    align-items: center;
+    gap: 10px;
+}
+
+.results>img{
+    width: 12px;
+    height: 16px; 
+    margin-left: 10px;
+}
+.results:hover{
+    background-color: rgba(141, 141, 141, 0.123);
+}
+
+
+#searchDiv{
+    display:table;
+    width:100%;
+    background-image: linear-gradient( rgba(58, 58, 58, 0.575), rgba(37, 37, 37, 0.37) ), url('https://d2v8elt324ukrb.cloudfront.net/static/new_template/media/Pimal2-1.2d5d237dbd32.jpg');
+    background-repeat: no-repeat;
+    background-size: contain, cover;
+    background-position:center;
+    height:400px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#searchDiv>div{
+    width: 65%;
+    margin: auto;
+    margin-top: 120px;
+}
+#searchDiv>div>h1{
+    font-size: 30px;
+}
+
+#inputDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+input{
+    font-size: 16px;
+    border: 1.5px solid rgba(128, 128, 128, 0.315);
+    padding: 10px;
+}
+#inputDiv button{
+    width: 150px;
+    background-color: #1e87f0;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #1e87f0;
+}
+#inputDiv button:hover{background-color: #1670ca;}
+
+
+
+
+
+
+
+#sliderDiv{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 36px;
+    margin-top: 20px;
+}
+#sliderDiv>div{
+    width: 100%;
+    height: 150px;
+}
+
+#sliderDiv>div h5{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+#fullyManaged{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: auto;
+    text-align: center;
+    margin-top: 70px;
+    gap: 50px;
+}
+#fullyManaged>#firstDiv{
+    color: gray;
+    width: 30%;
+    height:fit-content;
+    padding: 15px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+#fullyManaged>#firstDiv>div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+}
+#fullyManaged>#firstDiv>div img{
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+}
+#fullyManaged>#firstDiv>div p{
+    margin: auto;
+    width: 130px;
+    font-size: 14px;
+    margin-top: 20px;
+    padding: 10px;
+}
+#emptyBox1{
+    margin: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 20px;
+    gap: 30px;
+}
+#emptyBox1>div{
+    width: 100%;
+    height: 150px;
+}
+#emptyBox1>div h5{
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+
+
+
+
+#aboutWebsite{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 50px;
+    margin-top: 70px;
+}
+#aboutWebsite h1{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 40px;
+}
+#aboutWebsite>div{
+   text-align: center;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px 2px;
+   padding: 35px;
+}
+#aboutWebsite>div>div {
+    display: flex;
+}
+#aboutWebsite>div>div img {
+    width: 30%;
+}
+#aboutWebsite>div>div p {
+    width: 130px;
+    margin: auto;
+    margin-top: 20px;font-size: 15px;
+    font-weight: 600;
+    color: gray;
+}
+
+#exploreButton{
+    margin-top: 30px;
+    background-color: #1e87f0;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    padding: 10px 40px 10px 50px;
+}
+#exploreButton:hover{
+    background-color: #075aad;
+}
+
+
+/* bottomsliderDiv */
+
+#bottomsliderDiv{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 36px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+#bottomsliderDiv>div{
+    width: 100%;
+    height: 150px;
+}
+#bottomsliderDiv>div h5{
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 19px;
+    font-weight: 700;
+}
+.h41{
+    cursor: pointer;
+}
+/* footer============================================================================= */
+#ending{
+    width:92%;
+    margin:auto;
+    color:#000000;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-family: ProximaNovaLight,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 300;
+    margin-bottom:0px;
+
+}
+#lasta{
+    width:5.09%;
+    margin-left:4%;
+    margin-right:2%;
+    margin-top:50px;
+    border:0px;
+    color:#999;
+    background-color:white;
+    border-bottom:1px solid grey;
+    margin-bottom:20px;
+}
+#lasta:hover{
+border-bottom:1px solid #1e87f0;
+}
+
+#last{
+    width:8.09%;
+    margin-right:4%;
+    /* text-align:left; */
+    margin-top:50px;
+    border:0px;
+    color:#999;
+    background-color:white;
+    border-bottom:1px solid grey;
+    margin-bottom:20px;
+}
+#last:hover{
+    border-bottom:1px solid #1e87f0;
+    }
+#last+#lastt{
+    height:10px;
+    width:92%;
+    margin:auto;
+    border-bottom:1px solid grey;;
+    margin-top:-30.7px;
+    margin-bottom:20px;
+}
+#type{
+    display:grid;
+    width:92%;
+    margin:auto;
+    grid-template-columns: repeat(6,1fr);
+    margin-bottom:100px;
+}
+#type>div>p{
+    color:#484848;
+    cursor: pointer;
+    
+}
+#type>div>p:hover{
+    text-decoration:underline;
+    color:#1e87f0;
+}
+#type>div>p+p{
+    color:#484848;
+    margin-top:-10px;
+    color:#999;
+    font-size:14px;
+}
+#type>div>p+p:hover{
+    text-decoration:underline;
+}
+#type>div>p+p:hover:hover{
+    color:#484848;
+}

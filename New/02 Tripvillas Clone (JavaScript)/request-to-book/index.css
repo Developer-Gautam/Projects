@@ -1,0 +1,143 @@
+
+
+#firstDiv{
+    margin-top:100px;
+    display: flex;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:92%;
+    margin:auto;
+}
+#title{
+    font-size: 0.8rem;
+    text-align:center;
+    margin-top:80px;
+    margin-bottom:-80px;
+}
+
+
+
+#secondDiv{
+    text-align:center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width:92%;
+    margin:auto;
+    margin-top:-30px;
+    padding-bottom:40px;
+    padding-top:100px;
+}
+#secondDiv>p{
+    font-size:1.5rem;
+    margin-left:-550px;
+}
+#secondDiv>p+p{
+    font-size:1.5rem;
+    margin-top:-52px;
+    margin-left:510px;
+    width:590px;
+    
+}
+#imageDiv{
+    margin-top:1px;
+    margin-bottom:50px;
+    display:flex;
+}
+img{
+    height:100%;
+    width:48%;
+    margin:auto;
+    gap:2%;
+}
+
+#secondDiv>input{
+    height:36px;
+    width:220px; 
+    margin-right:-5px;
+}
+#secondDiv>button{
+    background-color:#8bc5ff;
+    border:0px;
+    border: 2px solid #64aef8;
+    height:42.5px;
+    width:220px; 
+    color: white;
+    cursor: pointer;
+}
+
+#secondDiv+button{
+    width:5%;
+    margin-left:4%;
+    text-align:left;
+    margin-top:50px;
+    border:0px;
+    background-color:white;
+    border-bottom:1px solid grey;
+    margin-bottom:20px;
+}
+#secondDiv+button+div{
+    height:10px;
+    width:92%;
+    margin:auto;
+    border-bottom:1px solid grey;;
+    margin-top:-30px;
+    margin-bottom:20px;
+}
+#type{
+    display:grid;
+    width:92%;
+    margin:auto;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom:100px;
+}
+#type>div>p{
+    color:#484848;
+    cursor: pointer;
+    
+}
+#type>div>p:hover{
+    text-decoration:underline;
+    color:#1e87f0;
+}
+#type>div>p+p{
+    color:#484848;
+    margin-top:-10px;
+    color:black;
+    font-size:14px;
+}
+#type>div>p+p:hover{
+    text-decoration:underline;
+}
+#type>div>p+p:hover:hover{
+    color:#484848;
+}
+#titlea{
+    margin:50px;
+    
+    width:92%;
+    margin:auto;
+}
+
+#gmap_canvas{
+    width: 100%;
+    height: 400px;
+    margin: auto;
+}
+
+.mapouter{
+    width: 70%;
+    margin: auto;
+    height: 450px;
+    margin-top: 70px;
+}
+
+
+#someContent{
+    width: 100%;
+    text-align: center;
+}
+#someContent>h3 ,#someContent>h1, #someContent>p{
+    width: 700px;
+    margin: auto;
+    margin-top: 30px;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.671);
+}

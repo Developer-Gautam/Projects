@@ -1,0 +1,111 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing:border-box ;
+}
+
+#prop_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 98%;
+    margin: auto;
+   margin-bottom: 20px; 
+    
+}
+
+#prop_container>div{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+a>img{
+    width: 100%;
+    height: 60%;
+}
+#prop_container>div>img{
+  width: 100%;
+  height: 300px;
+}
+#logoDiv>a>img{
+    width: 200px;
+    height: 40px;
+    margin-left: 20px; 
+ padding-top: 4px;
+ 
+}
+/* #text_filter_section{
+    border:1px solid red;
+} */
+#text_filter_section>h1{
+    margin-top: 40px;
+    width: 60%;
+    margin-left: 35px;
+    font-size: 45px;
+    font-weight: lighter;
+}
+
+#text_filter_section>p, #text_filter_section>div>p{
+    margin-left: 35px;
+    letter-spacing: .5px;
+    line-height: 23px;
+}
+#text_filter_section>div>p{
+    border:1px solid #faebcc;
+    font-size: 13px;
+    letter-spacing: .2px;
+    width: 94%;
+    padding:10px 0px;
+    padding-left: 15px;
+    background-color: #fcf8e3;
+    color:#8a6d3b;
+}
+
+#fil_sec{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 95%;
+    justify-content: space-around;
+    margin-left: 35px;
+}
+#fil_sec>#country, #prop_type, #sale_type, #management,#submit{
+    height: 40px;
+    width: 180px;
+    border-radius: 5px;
+}
+#submit{
+    border-width: 0px;
+    background-color:#2ba89f;
+    color:white; 
+    font-size: 16px;
+    cursor: pointer;   
+}
+
+#submit:hover{
+    background-color: #2ba89f;
+    border-radius: 15px;
+    border: 0px solid #2ba89f;
+}
+
+#management:hover,#country:hover,#prop_type:hover, #sale_type:hover, #management:hover{
+    border: 2px solid #2ba89f;
+}
+
+#nav{
+    padding-top: 4px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+#logoDiv{
+    cursor: pointer;
+    margin-right: auto;
+
+}
+

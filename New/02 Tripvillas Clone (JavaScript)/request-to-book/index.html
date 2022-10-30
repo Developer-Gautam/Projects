@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'> 
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="../navbar/darkNavBar/navbar.css">
+    <!-- <link rel="stylesheet" href="./navbar/darkNavBar/navbar.css"> -->
+    <link rel="stylesheet" href="../navbar/darkNavBar/loginSignup.css">
+</head>
+<body>
+
+    <div id="loginFormPopUpDiv"></div>
+    <div id="signupFormPopUpDiv"></div>
+    
+    <div id="inrPopupDiv"></div>
+    <div id="userLogoDiv"></div>
+    <div id="menuDiv"></div>
+
+    <div id="navbarDiv"></div>
+    <h1 id="title"></h1>
+      <div id="searchDiv"></div>
+   <div id="mainDiv">
+    <div id="secondDiv">
+        <p>Starting <span><b>$2334</b></span> per night -</p>
+        <!-- <div><h1>$2334</h1> <p>per night</p></div> -->
+        <p>Rateplan: Morning Breakfast (Continental Plan)</p>
+        <input type="date" placeholder="Check In" id="checkIn">
+        <input type="date" placeholder="Check Out" id="checkOut">
+        <input type="number" placeholder="Select Guests" id="guests">
+        <button onclick="sendData()">REQUEST TO BOOK</button>
+    </div>
+
+
+
+<button>TYPES</button>
+<div></div>
+    <div id="type">
+        <div><p>Room</p>
+        <p>69 vacation rentals</p></div>
+
+        <div><p>Wifi/Internet</p>
+        <p>41 vacation rentals</p></div>
+
+        <div><p>AC</p>
+        <p>30 vacation rentals</p></div>
+
+        <div><p>Swimming Pool</p>
+        <p>17 vacation rentals</p></div>
+
+        <div><p>Spa</p>
+        <p>12 vacation rentals</p></div>
+
+        <div><p>Villa</p>
+        <p>11 vacation rentals</p></div>
+
+        <div><p>Homestay</p>
+        <p>5 vacation rentals</p></div>
+
+        <div><p>Hotel</p>
+        <p>5 vacation rentals</p></div>
+
+        <div><p>Resort</p>
+        <p>5 vacation rentals</p></div>
+      
+    </div>
+    <h3 id="titlea"></h3>
+    <div id="firstDiv">
+        <div id="imageDiv"></div>
+        
+    </div>
+   </div>
+
+
+
+
+   <div id="container"></div>
+   <div class="mapouter">
+       <div class="gmap_canvas"><iframe id="gmap_canvas"
+               frameborder="0"
+               scrolling="no" marginheight="0" marginwidth="0">
+            </iframe>
+           
+       </div>
+   </div>
+
+   <div id="someContent">
+    <h1>Policies & Fees</h1>
+        <hr>
+    <h3>Default Cancellation Policy</h3>
+    <p><b>Stringent</b>  No charges will be levied if booking is canceled 61 days prior to check-in. If cancellation is done between 30 to 60 days prior to check-in, 50% of the total booking amount will be charged. Post that, there will be no refund.</p>
+   </div>
+
+
+
+</body>
+</html>
+
+
+<script src="index.js"></script>
+
+
+
+
+<script type="module">
+
+import navbar from "../navbar/darkNavBar/navbar.js"
+document.querySelector("#navbarDiv").innerHTML = navbar    
+
+</script>
+
+
+
+
+<script src="../navbar/darkNavBar/navbarSlider.js"></script>
+<script src="../navbar/darkNavBar/signup.js"></script>
+<script src="../navbar/darkNavBar/login.js"></script>
+
+<script>
+    let goToHomePage = ()=>{
+        window.location.href = "./home.html"
+    }
+</script>

@@ -1,0 +1,237 @@
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',arial,helvetica,sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+
+#kd_range{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+
+#kd_rover{
+    width: 70%;
+    margin: auto;
+margin-top: 1.2%;
+
+}
+
+#kd_vitara{
+    width: 70%;
+    margin: auto;
+}
+
+/* kd_vitara side css        kd_vitara side css         kd_vitara side css  */
+
+.kd_one{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 2rem;
+    margin: 2rem;
+}
+.h2{
+    font-size: 3rem;
+    padding-left: 3rem;
+    font-weight: 500;
+}
+
+#kd_post{
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.kd_option{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 30rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  
+}
+
+#kd_select{
+    font-size: 1.5rem;
+    padding: 1.1rem;
+}
+
+#email{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 60rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+hr{
+    margin: 2rem;
+}
+
+/* .kd_one complet     .kd_one complet      .kd_one complet */
+
+.kd_two{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 2rem;
+    margin: 2rem;
+}
+
+#massage{
+    font-size: 1.5rem;
+    padding: 1rem;
+    width: 60rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+.para{
+    font-size: 2rem;
+    margin-left: 2rem;
+   padding-bottom: 2rem;
+    color: gray;
+    line-height: 3rem;
+}
+
+/* kd_two complet     .kd_two complet       .kd_two complet */
+
+.kd_three{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-top: 2rem;
+    margin: 2rem;
+}
+
+.kd_pen{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border: .3rem solid 
+    #1e87f0;
+}
+.kd_pencile{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 95%;
+    margin: auto;
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+button{
+    width: 40%;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+    background-color: #f0506e;
+    border: none;
+    cursor: pointer;
+
+}
+
+/* kd_three complet         kd_three complet                kd_three complet */
+
+.btn{
+    width: 90%;
+   display: block;
+   margin: auto;
+   margin-bottom: 2rem;
+   padding: 2rem;
+   background-color: 
+   #1e87f0 ;
+   color: white;
+   border: none;
+
+} 
+
+/* kd_four complet          kd_four complet                kd_four complet                 kd_four complet */
+
+
+.kd_nine{
+    background-color: 
+    #1e87f0 ;
+    color: white;
+    border: none;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+ 
+}
+h3{
+    
+    font-size: 2.5rem;
+    margin-left: 2rem;
+   padding-bottom: 1rem;
+}
+
+li{
+    font-size: 2rem;
+    margin-left: 2rem;
+    line-height: 4rem;
+
+}
+
+/* kd_nine complet          kd_nine complet           kd_nine complet            kd_nine complet  */
+
+.kd_five{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2rem;
+    padding: 2rem;
+  
+}
+
+.para1{
+    font-size: 3rem;
+    margin-left: 3rem;
+   padding-bottom: 2rem;
+    color: gray;
+    line-height: 3rem;
+}
+
+/* kd_five complet            kd_five complet             kd_five complet              kd_five complet  */
+
+.kd_seven{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 2rem;
+}
+
+#kd_six{
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    grid-template-rows: auto;
+    gap: 3rem;
+    width: 100%;
+    margin: auto;
+}
+
+.kd_div{
+    /* border: 1px solid red; */
+    align-items: center;
+    height: 10rem;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 2rem;
+}
+
+.kd_div > p{
+    font-size: 2rem;
+    padding: 1rem;
+    text-align: center;
+    line-height: 3rem;
+}
